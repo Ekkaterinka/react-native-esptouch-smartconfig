@@ -5,11 +5,11 @@ export function checkLocation(): Promise<string> {
 }
 
 export function getConnectedInfo(): Promise<{
-  ssid: string,
-  bssid: string,
-  state: string,
-  ip?: string,
-  is5G?: boolean,
+  ssid: string;
+  bssid: string;
+  state: string;
+  ip?: string;
+  is5G?: boolean;
 }> {
   return Smartconfig.getConnectedInfo();
 }
@@ -17,7 +17,8 @@ export function getConnectedInfo(): Promise<{
 export function startEspTouch(
   apSsid: string,
   apBssid: string,
-  apPassword: string): Promise<string> {
+  apPassword: string
+): Promise<string> {
   return Smartconfig.startEspTouch(apSsid, apBssid, apPassword);
 }
 
