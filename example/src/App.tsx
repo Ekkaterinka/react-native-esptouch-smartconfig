@@ -1,6 +1,9 @@
 import { Text, View, StyleSheet } from 'react-native';
-import { checkLocation, getConnectedInfo } from 'react-native-smartconfig';
 import { useEffect, useState, useRef, useCallback } from 'react';
+import {
+  checkLocation,
+  getConnectedInfo,
+} from 'react-native-esptouch-smartconfig';
 
 export default function App() {
   const [resultConnected, setResultConnected] = useState('Ждем результат ...');

@@ -1,4 +1,4 @@
-# react-native-smartconfig
+# react-native-esptouch-smartconfig
 
 RTNSmartconfig is a React Native module that provides a native bridge for ESP-Touch SmartConfig, allowing developers to easily configure IoT devices to connect to a Wi-Fi network directly from a React Native application.
 
@@ -12,7 +12,7 @@ This package is useful for applications that need to quickly and securely provis
 
 
 ```sh
-npm install react-native-smartconfig
+npm install react-native-esptouch-smartconfig
 ```
 
 
@@ -20,7 +20,7 @@ npm install react-native-smartconfig
 
 
 ```js
-import { checkLocation, getConnectedInfo, startEspTouch, stopEspTouch } from 'react-native-smartconfig';
+import { checkLocation, getConnectedInfo, startEspTouch, stopEspTouch } from 'react-native-esptouch-smartconfig';
 
 // ...
 

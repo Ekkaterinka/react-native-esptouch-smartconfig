@@ -1,5 +1,5 @@
 {
-  "name": "react-native-smartconfig",
+  "name": "react-native-esptouch-smartconfig",
   "version": "0.1.0",
   "description": "React Native module for ESP-Touch SmartConfig to provision IoT devices over Wi-Fi on iOS and Android.",
   "main": "./lib/module/index.js",
@@ -31,7 +31,7 @@
     "!**/.*"
   ],
   "scripts": {
-    "example": "yarn workspace react-native-smartconfig-example",
+    "example": "yarn workspace react-native-esptouch-smartconfig-example",
     "test": "jest",
     "typecheck": "tsc",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
@@ -49,14 +49,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ekkaterinka/react-native-smartconfig.git"
+    "url": "git+https://github.com/Ekkaterinka/react-native-esptouch-smartconfig.git"
   },
   "author": "Ekaterina <ekaterina.below@yandex.ru> (https://github.com/Ekkaterinka)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Ekkaterinka/react-native-smartconfig/issues"
+    "url": "https://github.com/Ekkaterinka/react-native-esptouch-smartconfig/issues"
   },
-  "homepage": "https://github.com/Ekkaterinka/react-native-smartconfig#readme",
+  "homepage": "https://github.com/Ekkaterinka/react-native-esptouch-smartconfig#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },

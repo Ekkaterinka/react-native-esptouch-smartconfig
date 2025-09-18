@@ -2,7 +2,7 @@
   "compilerOptions": {
     "rootDir": ".",
     "paths": {
-      "react-native-smartconfig": ["./src/index"]
+      "react-native-esptouch-smartconfig": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
